@@ -1,8 +1,8 @@
 import java.util.Map;
 import java.util.HashMap;
 
-public class MyClass {
-    public static String isUnique(String s){
+public class isUnique {
+    public static String isStringUnique(String s){
         Map<Character, Integer> map = new HashMap();
         for(char c : s.toCharArray()){
             map.put(c, map.getOrDefault(c, 0) + 1);
@@ -17,10 +17,10 @@ public class MyClass {
     }
     
     public static void main(String args[]) {
-        String s = "hhello";
-        System.out.println(isUnique(s));
-        
+        String s = "hhello";        
         String d = "helo";
-        System.out.println(isUnique(d));
+
+        System.out.println(isStringUnique(s));
+        System.out.println(isStringUnique(d));
     }
 }

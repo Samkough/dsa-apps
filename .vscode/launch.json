@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - binaryTreeSum",
+            "request": "launch",
+            "mainClass": "binaryTreeSum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - isUnique",
+            "request": "launch",
+            "mainClass": "isUnique"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - findDuplicates",
+            "request": "launch",
+            "mainClass": "findDuplicates"
+        }
+    ]
+}
