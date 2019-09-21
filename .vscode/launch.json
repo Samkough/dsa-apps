@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - replaceDuplicateChars",
+            "request": "launch",
+            "mainClass": "replaceDuplicateChars",
+            "projectName": "dsa-apps_1038716e"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - findMissingNum",
             "request": "launch",
             "mainClass": "findMissingNum",

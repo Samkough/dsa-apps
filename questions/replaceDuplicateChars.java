@@ -5,16 +5,27 @@ been replaced with x
 --------
 input = [a, b, b, a, c, a]
 output = [a, b, x, x, c, x]
+*/
 
-public Char[] replaceDuplicateCharacters(Char[] arr) {
-    List<Character> newArray = new List<Character>();
-    Set<Character> newSet = new HashSet<Character>();
+import java.util.*;
 
-    for(int i = 0; i < arr; i++) {
-        // check arr[i] in hashmap
-        // if not, we would add to the newArray
-        // if it is,  we would add it to x
-        // add arr[i]
+public class replaceDuplicateChars {
+    public static char[] replaceDuplicateChars(char[] arr) {
+        List<Character> newArr = new ArrayList<Character>();
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+
+        for(int i = 0; i < arr.length; i++) {
+            if(map.get(arr[i]) == null)
+                map.put(arr[i], i);
+            else
+                newArr.add('x');
+            newArr.add(arr[i]);
+        }
+    }
+
+    public static void main (String args[]) {
+        char[] chars = new char[]{'a', 'b', 'b', 'a', 'c', 'a'};
+
+        System.out.println(replaceDuplicateChars(chars));
     }
 }
-*/
