@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BinaryTreeSum",
+            "request": "launch",
+            "mainClass": "BinaryTreeSum",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - returnMinimumCoins",
             "request": "launch",
             "mainClass": "returnMinimumCoins"
