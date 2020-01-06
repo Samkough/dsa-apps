@@ -1,6 +1,16 @@
 import java.util.*;
 
-public class binaryTreeSum {
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    public TreeNode(int x) { 
+        val = x;
+    }
+}
+
+public class BinaryTreeSum {
     public static boolean pathSum(TreeNode head, int sum) {
         if (head == null)
             return false;

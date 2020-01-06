@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class findMissingNum {
+public class FindMissingNum {
     public static int sortedFindMissingNum(int[] arr) {
         Arrays.sort(arr);
 

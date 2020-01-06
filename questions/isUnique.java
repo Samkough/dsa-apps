@@ -1,9 +1,9 @@
 import java.util.Map;
 import java.util.HashMap;
 
-public class isUnique {
+public class IsUnique {
     public static String isStringUnique(String s){
-        Map<Character, Integer> map = new HashMap();
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
         for(char c : s.toCharArray()){
             map.put(c, map.getOrDefault(c, 0) + 1);
         }

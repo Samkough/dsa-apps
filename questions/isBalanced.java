@@ -1,7 +1,6 @@
 import java.util.*;
 
-public class isBalanced {
-    
+public class IsBalanced {
     public static boolean balancedParam(String param) {
         Stack<Character> stack = new Stack<Character>();
 

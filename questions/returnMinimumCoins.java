@@ -1,4 +1,4 @@
-public class returnMinimumCoins {
+public class ReturnMinimumCoins {
     public static int returnMinimumUSCoins(int n) {
         int coins = 0;
         while (n > 0) {

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class findDuplicates {
+public class FindDuplicates {
     public static List<Integer> returnDuplicates(List<Integer> nums) {
         List<Integer> duplicates = new ArrayList<>();
         Set<Integer> numSet = new HashSet<>();
