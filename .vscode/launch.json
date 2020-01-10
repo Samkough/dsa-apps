@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LengthOfLongestSubstring",
+            "request": "launch",
+            "mainClass": "LengthOfLongestSubstring",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BinaryTreeSum",
             "request": "launch",
             "mainClass": "BinaryTreeSum",
