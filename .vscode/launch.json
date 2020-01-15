@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DefangIPAddress",
+            "request": "launch",
+            "mainClass": "DefangIPAddress",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "ContainsDuplicate",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BestTimeBuySellStock",
             "request": "launch",
             "mainClass": "BestTimeBuySellStock",
