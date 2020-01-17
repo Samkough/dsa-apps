@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class DecompressRunLengthEncodedList {
+    // O(n^2)
     public static int[] bfDecompressList(int[] nums) {
         int length = 0;
         for (int i = 0; i < nums.length; i+=2) {
