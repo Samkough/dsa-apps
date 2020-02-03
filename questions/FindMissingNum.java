@@ -1,5 +1,10 @@
 import java.util.*;
 
+/*
+Given an array containing n distinct numbers
+taken from 0, 1, 2, ..., n, find the one that
+is missing from the array.
+*/
 public class FindMissingNum {
     public static int sortedFindMissingNum(int[] arr) {
         Arrays.sort(arr);

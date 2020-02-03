@@ -1,6 +1,9 @@
 import java.util.Map;
 import java.util.HashMap;
 
+/*
+Given a string, determine if it has all unique characters.
+*/
 public class IsUnique {
     public static String isStringUnique(String s){
         Map<Character, Integer> map = new HashMap<Character, Integer>();

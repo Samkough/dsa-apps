@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReturnMinimumCoins",
+            "request": "launch",
+            "mainClass": "ReturnMinimumCoins",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsBalanced",
+            "request": "launch",
+            "mainClass": "IsBalanced",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindDuplicates",
+            "request": "launch",
+            "mainClass": "FindDuplicates",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindAllDisappearedNumbers",
+            "request": "launch",
+            "mainClass": "FindAllDisappearedNumbers",
+            "projectName": "dsa-apps_b9255430"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MajorityElement",
             "request": "launch",
             "mainClass": "MajorityElement",

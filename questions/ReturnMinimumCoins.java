@@ -1,3 +1,11 @@
+/*
+Given a value n, if we want to make
+change for n cents, and we have
+infinite supply of each of
+C = { C1, C2, .. , Cm} valued coins,
+what is the minimum number of coins
+to make the change?
+*/
 public class ReturnMinimumCoins {
     public static int returnMinimumUSCoins(int n) {
         int coins = 0;

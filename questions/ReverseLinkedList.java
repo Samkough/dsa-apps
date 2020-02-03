@@ -1,3 +1,6 @@
+/*
+Reverse a singly linked list.
+*/
 public class ReverseLinkedList {
     public static ListNode head;
 

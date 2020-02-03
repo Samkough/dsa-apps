@@ -2,7 +2,6 @@
 Given a valid (IPv4) IP address,
 return a defanged version of that IP address.
 */
-
 public class DefangIPAddress {
     // ~O(n)
     public static String bfDefangIP(String address) {
