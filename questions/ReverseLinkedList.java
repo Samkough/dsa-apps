@@ -29,8 +29,7 @@ public class ReverseLinkedList {
         return prev;
     }
 
-    public static void printList(ListNode node) 
-    { 
+    public static void printList(ListNode node) { 
         while (node != null) { 
             System.out.print(node.data + " "); 
             node = node.next; 
