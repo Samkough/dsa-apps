@@ -1,14 +1,23 @@
-# Data Structures & Algorithms Applications
+# Data Structures & Algorithms Applications 🧃
 
 Applications of data structures and algorithms. Included are notes and questions that are about data structures and algorithms.
 
-## Notes
+## Structure 📘
 
-- Data structures are classified as either contiguous or linked, depending upon whether they are based on arrays or pointers:
-  - Contiguously-allocated structures are composed of single slabs of memory (i.e. arrays, matrices, heaps, and hash tables)
-  - Linked data structures are composed of distinct chunks of memory bound together by pointers (i.e. lists, trees, and graph adjacency lists)
+### Apps 📱
 
-## References
+Purposely built apps to utilize certain data structures and algorithms.
 
+### Notes 📝
+
+Notes on data structures and algorithms as well as concepts surrounding them.
+
+### Questions ❓
+
+Programming questions that utilize your data structure and algorithm knowledge as well as general programming skills. Provided is notes for each question. Thanks to [Leetcode](https://leetcode.com/) for a majority of these questions.
+
+## References 🦮
+
+- Elements of Programming Interviews in Java
 - The Algorithm Design Manual Second Edition by Steven Skiena
 - Cracking the Coding Interivew by Gayle Laakmann McDowell
