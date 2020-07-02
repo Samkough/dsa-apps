@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - XOROperationInAnArray",
+            "request": "launch",
+            "mainClass": "XOROperationInAnArray",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberStepsReduceNumberZero",
+            "request": "launch",
+            "mainClass": "NumberStepsReduceNumberZero",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JewelsAndStones",
+            "request": "launch",
+            "mainClass": "JewelsAndStones",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsBalanced",
+            "request": "launch",
+            "mainClass": "IsBalanced",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReturnMinimumCoins",
             "request": "launch",
             "mainClass": "ReturnMinimumCoins",
