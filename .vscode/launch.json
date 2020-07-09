@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BalancedRLString",
+            "request": "launch",
+            "mainClass": "BalancedRLString",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TargetArrayInGivenOrder",
+            "request": "launch",
+            "mainClass": "TargetArrayInGivenOrder",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - XOROperationInAnArray",
             "request": "launch",
             "mainClass": "XOROperationInAnArray",
