@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SingleNumber",
+            "request": "launch",
+            "mainClass": "SingleNumber",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BalancedRLString",
             "request": "launch",
             "mainClass": "BalancedRLString",
