@@ -1,3 +1,5 @@
+package questions;
+
 import java.util.*;
 
 /*
@@ -10,7 +12,7 @@ public class FindMissingNum {
         Arrays.sort(arr);
 
         int missingVal = 0;
-        for(int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             missingVal = arr[i] + 1;
 
             if (arr[i + 1] != missingVal)
@@ -25,7 +27,7 @@ public class FindMissingNum {
         int sumOfArr = (actualSize + (actualSize - 1)) / 2;
         int sum = 0;
 
-        for(int i = 0; i < arr.length - 1; i++)
+        for (int i = 0; i < arr.length - 1; i++)
             sum += arr[i];
 
         int missingVal = sumOfArr - sum;
@@ -33,8 +35,8 @@ public class FindMissingNum {
         return missingVal;
     }
 
-    public static void main (String args[]) {
-        int[] arr = new int[]{3, 0, 2};
+    public static void main(String args[]) {
+        int[] arr = new int[] { 3, 0, 2 };
 
         System.out.println("Unsorted: " + unsortedFindMissingNum(arr));
         System.out.println("Sorted: " + sortedFindMissingNum(arr));

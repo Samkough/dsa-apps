@@ -1,3 +1,5 @@
+package questions;
+
 /*
 array of characters
 write a function where all the duplicate characters have
@@ -15,7 +17,7 @@ public class ReplaceDuplicateChars {
         Map<Character, Integer> map = new HashMap<Character, Integer>();
 
         for (int i = 0; i < arr.length; i++) {
-            if(map.get(arr[i]) == null)
+            if (map.get(arr[i]) == null)
                 map.put(arr[i], i);
             else
                 newArr.add('x');
@@ -31,8 +33,8 @@ public class ReplaceDuplicateChars {
         return newCharArr;
     }
 
-    public static void main (String args[]) {
-        char[] chars = new char[]{'a', 'b', 'b', 'a', 'c', 'a'};
+    public static void main(String args[]) {
+        char[] chars = new char[] { 'a', 'b', 'b', 'a', 'c', 'a' };
 
         System.out.println(bfReplaceDuplicateChars(chars));
     }

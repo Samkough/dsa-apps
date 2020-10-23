@@ -1,3 +1,5 @@
+package questions;
+
 /*
 Say you have an array for which the ith element
 is the price of a given stock on day i.
@@ -40,10 +42,10 @@ public class BestTimeBuySellStock {
         return max;
     }
 
-    public static void main (String args[]) {
-        int[] arr1 = new int[]{7,1,5,3,6,4};
+    public static void main(String args[]) {
+        int[] arr1 = new int[] { 7, 1, 5, 3, 6, 4 };
         System.out.println("[7, 1, 5, 3, 6, 4]: " + bfMaxProfit(arr1)); // 5
-        int[] arr2 = new int[]{7,6,4,3,7,3,1,4,7,1};
+        int[] arr2 = new int[] { 7, 6, 4, 3, 7, 3, 1, 4, 7, 1 };
         System.out.println("[7, 6, 4, 3, 7, 3, 1, 4, 7, 1]: " + bfMaxProfit(arr2)); // 6
     }
 }

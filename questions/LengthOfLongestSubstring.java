@@ -1,3 +1,5 @@
+package questions;
+
 import java.util.Set;
 import java.util.HashSet;
 
@@ -30,7 +32,7 @@ public class LengthOfLongestSubstring {
         return ans;
     }
 
-    public static void main (String args[]) {
+    public static void main(String args[]) {
         String test1 = "abcabcbb";
         System.out.println(test1 + ": " + bfLengthOfLongestSubstring(test1)); // 3
         String test2 = "bbbbbbb";

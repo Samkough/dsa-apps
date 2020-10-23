@@ -1,3 +1,5 @@
+package questions;
+
 /*
 Balanced strings are those who have equal quantity of 'L' and 'R' characters.
 

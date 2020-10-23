@@ -1,3 +1,5 @@
+package questions;
+
 /*
 Reverse a singly linked list.
 */
@@ -7,8 +9,8 @@ public class ReverseLinkedList {
     public static class ListNode {
         int data;
         ListNode next;
-    
-        public ListNode(int x) { 
+
+        public ListNode(int x) {
             data = x;
         }
     }
@@ -29,25 +31,25 @@ public class ReverseLinkedList {
         return prev;
     }
 
-    public static void printList(ListNode node) { 
-        while (node != null) { 
-            System.out.print(node.data + " "); 
-            node = node.next; 
-        } 
+    public static void printList(ListNode node) {
+        while (node != null) {
+            System.out.print(node.data + " ");
+            node = node.next;
+        }
     }
 
-    public static void main (String args[]) {
-        ReverseLinkedList.head = new ListNode(85); 
-        ReverseLinkedList.head.next = new ListNode(15); 
-        ReverseLinkedList.head.next.next = new ListNode(4); 
-        ReverseLinkedList.head.next.next.next = new ListNode(20); 
-  
-        System.out.println("Given Linked List:"); 
-        ReverseLinkedList.printList(head); 
+    public static void main(String args[]) {
+        ReverseLinkedList.head = new ListNode(85);
+        ReverseLinkedList.head.next = new ListNode(15);
+        ReverseLinkedList.head.next.next = new ListNode(4);
+        ReverseLinkedList.head.next.next.next = new ListNode(20);
 
-        head = ReverseLinkedList.reverseLinkedListIteratively(head); 
+        System.out.println("Given Linked List:");
+        ReverseLinkedList.printList(head);
 
-        System.out.println("\nReversed Linked List:"); 
-        ReverseLinkedList.printList(head); 
+        head = ReverseLinkedList.reverseLinkedListIteratively(head);
+
+        System.out.println("\nReversed Linked List:");
+        ReverseLinkedList.printList(head);
     }
 }

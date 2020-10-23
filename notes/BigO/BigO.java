@@ -1,7 +1,9 @@
+package notes.BigO;
+
 // Cracking the Coding Interview: Chapter 6 - Big O
 
 public class BigO {
-    public static void runtimes(){
+    public static void runtimes() {
         // O(s) - size of file
 
         // O(1) - constant time
@@ -24,7 +26,7 @@ public class BigO {
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
-        
+
         for (int i = 0; i < array.length; i++) {
             product *= array[i];
         }
@@ -33,19 +35,19 @@ public class BigO {
     }
 
     // Example 2
-    public static void printPairs(int[] array){
+    public static void printPairs(int[] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 System.out.println(array[i] + ", " + array[j]);
             }
-        } 
+        }
     }
 
     public static void main(String args[]) {
         runtimes();
 
         // declarations/instantiations
-        int[] arr1 = new int[]{4, 2, 8, 5, 3};
+        int[] arr1 = new int[] { 4, 2, 8, 5, 3 };
 
         /* Examples - Page 46 */
         // Example 1 - Page 46: What is the runtime?

@@ -1,3 +1,5 @@
+package questions;
+
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
@@ -12,12 +14,12 @@ have exactly one solution, and you
 may not use the same element twice.
 */
 public class TwoSum {
-    public static int[] bfTwoSum (int[] nums, int target) {
+    public static int[] bfTwoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (i != j) {
                     if (nums[i] + nums[j] == target) {
-                        return new int[] {i, j};
+                        return new int[] { i, j };
                     }
                 }
             }
@@ -37,8 +39,8 @@ public class TwoSum {
         throw new IllegalArgumentException("No two sum solution!");
     }
 
-    public static void main (String args[]) {
-        int[] arr = new int[]{2, 7, 11, 15};
+    public static void main(String args[]) {
+        int[] arr = new int[] { 2, 7, 11, 15 };
         int target = 9;
         System.out.println("Brute Force: " + Arrays.toString(bfTwoSum(arr, target)));
         System.out.println("Efficient: " + Arrays.toString(eTwoSum(arr, target)));

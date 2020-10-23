@@ -1,3 +1,5 @@
+package questions;
+
 import java.util.Arrays;
 
 /*
@@ -12,9 +14,9 @@ Notes:
 */
 public class MoveZeroes {
     // O(n^2)
-    public static void bfMoveZeroes (int nums[]) {
+    public static void bfMoveZeroes(int nums[]) {
         int zeroCount = 0;
-        
+
         // count all zeroes
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 0) {
@@ -50,7 +52,7 @@ public class MoveZeroes {
                 zeroCount++;
             }
         }
-        
+
         // insert all non-zero numbers in front
         int insertPosition = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -59,7 +61,7 @@ public class MoveZeroes {
                 insertPosition++;
             }
         }
-        
+
         // move zeroes to back
         for (int i = 0; i < nums.length; i++) {
             if (i >= nums.length - zeroCount) {
@@ -68,15 +70,38 @@ public class MoveZeroes {
         }
     }
 
-    public static void main (String args[]) {
-        int arr1[] = new int[]{0, 1, 0, 3, 12};
+    // O(n)
+    public static void esMoveZeroes(int[] nums) {
+        int nonZeroIndex = 0;
+
+        // move all non-zero numbers to the front
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                nums[nonZeroIndex] = nums[i];
+                nonZeroIndex++;
+            }
+        }
+
+        // move all zeroes to the back
+        for (int i = nums.length - 1; i > nonZeroIndex - 1; i--) {
+            nums[i] = 0;
+        }
+    }
+
+    public static void main(String args[]) {
+        int arr1[] = new int[] { 0, 1, 0, 3, 12 };
         System.out.print(Arrays.toString(arr1) + ": ");
         bfMoveZeroes(arr1);
         System.out.println(Arrays.toString(arr1));
 
-        int arr2[] = new int[]{0, 0, 0, 4, 0, 3, 3, 0, 0, 3, 12, 0};
+        int arr2[] = new int[] { 0, 0, 0, 4, 0, 3, 3, 0, 0, 3, 12, 0 };
         System.out.print(Arrays.toString(arr2) + ": ");
         eMoveZeroes(arr2);
         System.out.println(Arrays.toString(arr2));
+
+        int arr3[] = new int[] { 0, 0, 4, 0, 3, 0, 0, 3, 12, 0 };
+        System.out.print(Arrays.toString(arr3) + ": ");
+        esMoveZeroes(arr3);
+        System.out.println(Arrays.toString(arr3));
     }
 }

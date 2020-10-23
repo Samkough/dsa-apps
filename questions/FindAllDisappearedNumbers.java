@@ -1,3 +1,5 @@
+package questions;
+
 import java.util.Map;
 import java.util.HashMap;
 import java.util.List;
@@ -34,8 +36,8 @@ public class FindAllDisappearedNumbers {
         return list;
     }
 
-    public static void main (String args[]) {
-        int[] arr = new int[]{4,3,2,7,8,2,3,1};
+    public static void main(String args[]) {
+        int[] arr = new int[] { 4, 3, 2, 7, 8, 2, 3, 1 };
         System.out.println(Arrays.toString(arr) + ": " + efFindAllMissingNums(arr));
     }
 }

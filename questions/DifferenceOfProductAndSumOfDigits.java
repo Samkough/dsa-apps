@@ -1,3 +1,5 @@
+package questions;
+
 /*
 Given an integer number n, return the
 difference between the product of its
@@ -10,16 +12,16 @@ public class DifferenceOfProductAndSumOfDigits {
         String s = Integer.toString(n);
         int product = 1;
         int sum = 0;
-        
+
         for (int i = 0; i < s.length(); i++) {
             product *= Character.getNumericValue(s.charAt(i));
             sum += Character.getNumericValue(s.charAt(i));
         }
-    
+
         return product - sum;
     }
 
-    public static void main (String args[]) {
+    public static void main(String args[]) {
         int num = 8328;
         System.out.println(num + ": " + differenceOfProductAndSumDigits(num));
     }

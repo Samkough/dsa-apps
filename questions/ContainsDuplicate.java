@@ -1,3 +1,5 @@
+package questions;
+
 import java.util.Set;
 import java.util.HashSet;
 
@@ -16,7 +18,7 @@ public class ContainsDuplicate {
         for (int i = 0; i < nums.length; ++i) {
             for (int j = 0; j < i; ++j) {
                 if (nums[j] == nums[i])
-                    return true;  
+                    return true;
             }
         }
         return false;
@@ -25,19 +27,19 @@ public class ContainsDuplicate {
     // O(n)
     public static boolean eContainsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<Integer>();
-        
+
         for (int i = 0; i < nums.length; i++) {
             if (!set.add(nums[i])) {
                 return true;
             }
         }
-        
+
         return false;
     }
 
-    public static void main(String args[]){
-        int[] nums1 = new int[]{1, 2, 3, 4, 4};
-        int[] nums2 = new int[]{1, 2, 3, 4, 5};
+    public static void main(String args[]) {
+        int[] nums1 = new int[] { 1, 2, 3, 4, 4 };
+        int[] nums2 = new int[] { 1, 2, 3, 4, 5 };
 
         System.out.println(bfContainsDuplicate(nums1)); // true
         System.out.println(eContainsDuplicate(nums2)); // false

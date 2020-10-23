@@ -1,3 +1,5 @@
+package questions;
+
 import java.util.*;
 
 /*
@@ -12,7 +14,7 @@ class TreeNode {
     TreeNode left;
     TreeNode right;
 
-    public TreeNode(int x) { 
+    public TreeNode(int x) {
         val = x;
     }
 }
@@ -34,14 +36,14 @@ public class BinaryTreeSum {
 
             if (curr.left == null && curr.right == null && sumOfValues == sum)
                 return true;
-            
-            if(curr.left != null) {
+
+            if (curr.left != null) {
                 nodes.add(curr.left);
                 values.add(sumOfValues + curr.left.val);
 
             }
 
-            if(curr.right != null) {
+            if (curr.right != null) {
                 nodes.add(curr.right);
                 values.add(sumOfValues + curr.right.val);
             }
@@ -50,7 +52,7 @@ public class BinaryTreeSum {
         return false;
     }
 
-    public static void main (String args[]) {
+    public static void main(String args[]) {
         int sum1 = 22;
         int sum2 = 23;
         TreeNode head = new TreeNode(5);
@@ -61,7 +63,7 @@ public class BinaryTreeSum {
         head.right.right = new TreeNode(4);
         head.left.left.left = new TreeNode(7);
         head.left.left.right = new TreeNode(2);
-        head.right.right.right  = new TreeNode(1);
+        head.right.right.right = new TreeNode(1);
 
         System.out.println(pathSum(head, sum1));
         System.out.println(pathSum(head, sum2));
