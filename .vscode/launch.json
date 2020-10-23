@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindEmbeddedWord",
+            "request": "launch",
+            "mainClass": "questions.FindEmbeddedWord",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxContiguousSubarray",
+            "request": "launch",
+            "mainClass": "questions.MaxContiguousSubarray",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JewelsAndStones",
+            "request": "launch",
+            "mainClass": "questions.JewelsAndStones",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Playground",
+            "request": "launch",
+            "mainClass": "Playground",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SingleNumber",
             "request": "launch",
             "mainClass": "SingleNumber",
