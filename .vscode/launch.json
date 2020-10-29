@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindNodesWithCommonAttributes",
+            "request": "launch",
+            "mainClass": "questions.FindNodesWithCommonAttributes",
+            "projectName": "dsa-apps_5c06e1cb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FindEmbeddedWord",
             "request": "launch",
             "mainClass": "questions.FindEmbeddedWord",
